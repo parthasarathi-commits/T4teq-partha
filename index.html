@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+HU:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body >
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="my-logo">
+            <h1>Ronniee!</h1>
+        </div>
+        <div class="navbar-link">
+            <p><a href="#header">Home</a></p>
+            <p><a href="#services">Service</a></p>
+            <p><a href="#my-gallery">Gallery</a></p>
+            <p><a href="">Contact</a></p>
+            <p><a href="">About</a></p>
+            <i onclick="showSidenav()" class="fa-solid fa-bars" id="openside"></i>
+        </div>
+    </nav>
+
+    <div class="side-navbar">
+    <div class="side-navbar-link">
+        <p><a href="">Home</a></p>
+        <p><a href="">Service</a></p>
+        <p><a href="">Gallery</a></p>
+        <p><a href="">Contact</a></p>
+        <p><a href="">About</a></p>
+        <p class="closeside" onclick="closeSidenav()">
+            <i class="fa-solid fa-circle-up"></i>
+        </p>
+    </div>
+</div>
+
+
+    <!-- header -->
+     <div class="header-container">
+        <div class="header" id="header">
+            <div class="swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image:url('wedding/IMG_5951.JPG');">
+            <div class="slide-content">
+                <h1>Wedding Shoot</h1>
+                <a href="#">TAKE A LOOK</a>
+            </div>
+        </div>
+        <div class="swiper-slide" style="background-image:url('bw/IMG_6022.JPG');">
+            <div class="slide-content">
+                <h1>B/W Photoshoot</h1>
+                <a href="#">TAKE A LOOK</a>
+            </div>
+        </div>
+        <div class="swiper-slide" style="background-image:url('fashion/IMG_6042.JPG');">
+            <div class="slide-content">
+                <h1>Fashion</h1>
+                <a href="#">TAKE A LOOK</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Navigation -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
+    </div>
+     </div>
+
+    <!-- <hr class="border border-2 opacity-50" style="width:100%; color: aliceblue;"> -->
+     <!-- About Me -->
+     <section class="about-content">
+    <div class="ronniee-img">
+        <img src="c:\Users\parthasarathi N\Downloads\Screenshot_10-8-2025_155229_www.instagram.com.jpeg" alt="Ronniee">
+        <span>Ronniee</span>
+    </div>
+    <div class="about-me">
+        <h1>About Me</h1>
+        <p>
+            <span>I'm Ronniee</span> — a passionate photographer capturing life’s most genuine moments.
+            With years of experience, I specialize in weddings, portraits, and creative shoots.
+            My lens tells stories filled with emotion, color, and timeless beauty.
+        </p>
+    </div>
+</section>
+
+
+        <!-- <hr class="border border-2 opacity-50" style="width:100%; color: aliceblue;"> -->
+
+        <!-- My Service -->
+         <div class="service-container">
+          <div class="service-content">
+            <!-- <div class="service-heading">
+              <h1 class="text-center">My Service</h1>
+              <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates reiciendis odio id iste autem, nisi minus possimus, cumque in asperiores, eligendi sit perferendis. Ratione, doloremque et qui alias illo ipsa?</p>
+            </div>
+             -->
+  <section class="services" id="services">
+  <div class="container">
+    <h2 class="text-center">My Services</h2>
+  <hr class="border border-2 opacity-50" style="width:100%; color: aliceblue;">
+    <p class="section-subtitle">
+    My lens tells stories filled with emotion, color, and timeless beauty.
+    From candid smiles to dramatic frames, every shot reflects my artistic vision.
+    </p>
+
+    <div class="service-grid">
+      <div class="service-box">
+        <div class="icon">
+          <p><i class="fa-solid fa-camera"></i></p>
+          </div>
+        <h3>Photography</h3>
+        <p>Photography bibendum eros amet vacum the vulputate in the vitae miss.</p>
+      </div>
+
+      <div class="service-box">
+        <div class="icon">
+          <p><i class="fa-solid fa-video"></i></p>
+        </div>
+        <h3>Videography</h3>
+        <p>Videography bibendum eros amen vacun the vulputate in the vitae miss.</p>
+      </div>
+
+      <div class="service-box">
+        <div class="icon">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+        </div>
+        <h3>Photo Retouching</h3>
+        <p>Photo Retouching bibendum eros amen vacun the vulputate in the vitae miss.</p>
+      </div>
+
+      <div class="service-box">
+        <div class="icon">
+          <i class="fa-solid fa-helicopter"></i>
+        </div>
+        <h3>Drone Shoot</h3>
+        <p>Drone Shoot bibendum eros amen vacun the vulputate in the miss.</p>
+      </div>
+
+      <div class="service-box">
+        <div class="icon">
+          <i class="fa-solid fa-highlighter"></i>
+        </div>
+        <h3>Lightning Setup</h3>
+        <p>Lightning Setup bibendum eros amen vacus duru in the vitae miss.</p>
+      </div>
+
+      <div class="service-box">
+        <div class="icon">
+          <i class="fa-solid fa-brush"></i>
+        </div>
+        <h3>Video Color Grading</h3>
+        <p>Video Color Grading bibendum amen vacus the vulputate in the vitae.</p>
+      </div>
+
+      <div class="service-box">
+        <div class="icon">
+          <i class="fa-solid fa-brush"></i>
+        </div>
+        <h3>Video Color Grading</h3>
+        <p>Video Color Grading bibendum amen vacus the vulputate in the vitae.</p>
+      </div>
+
+      <div class="service-box">
+        <div class="icon">
+          <i class="fa-solid fa-brush"></i>
+        </div>
+        <h3>Video Color Grading</h3>
+        <p>Video Color Grading bibendum amen vacus the vulputate in the vitae.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+        </div>
+        </div>
+
+        <section class="expertise">
+  <div class="expertise-container">
+    <h2 class="section-card">Expertise Area</h2>
+
+    <div class="services-cards">
+      <article class="service-card">
+        <div class="card-media" style="background-image:url('wedding/IMG_5951.JPG')"></div>
+        <div class="card-body">
+          <h3 class="card-title">
+            <span  href="#header">wed</span><span>ding</span>
+          </h3>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div class="card-media" style="background-image:url('bw/IMG_6022.JPG')"></div>
+        <div class="card-body">
+          <h3 class="card-title">
+            <span>Black</span><span>White</span>
+          </h3>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div class="card-media" style="background-image:url('fashion/IMG_6042.JPG')"></div>
+        <div class="card-body">
+          <h3 class="card-title">
+            <span>Fas</span><span>hion</span>
+          </h3>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- My gallery -->
+<div class="gallery-menu">
+<div class="my-gallery" id="my-gallery">  
+  <h2 class="text-center">Gallery</h2>
+   <hr class="border border-2 opacity-50" style="width:100%; color: aliceblue;">
+<!-- Filter Menu -->
+<div class="filter-menu">
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="wedding">Wedding</button>
+    <button data-filter="event">B/w</button>
+    <button data-filter="fashion">Fashion</button>
+    <button data-filter="product">Product</button>
+</div>
+
+<!-- Masonry Gallery -->
+<div class="gallery">
+    <div class="gallery-item wedding">
+        <img src="wedding/IMG_5938.JPG" alt="">
+    </div>
+     <div class="gallery-item event">
+        <img src="bw/IMG_6022.JPG" alt="">
+    </div>
+    <div class="gallery-item fashion">
+        <img src="fashion/IMG_6032.JPG" alt="">
+    </div>
+    <div class="gallery-item product">
+        <img src="fashion/IMG_6044.JPG" alt="">
+    </div>
+     <div class="gallery-item wedding">
+        <img src="wedding/IMG_5944.JPG" alt="">
+    </div>
+    <div class="gallery-item fashion">
+        <img src="fashion/IMG_6040.JPG" alt="">
+    </div>
+    <div class="gallery-item wedding">
+        <img src="wedding/IMG_5941.JPG" alt="">
+    </div>
+    <div class="gallery-item event">
+        <img src="fashion/IMG_6046.JPG" alt="">
+    </div>
+         <div class="gallery-item fashion">
+        <img src="fashion/IMG_6043.JPG" alt="">
+    </div>
+    <div class="gallery-item wedding">
+        <img src="wedding/IMG_5943.JPG" alt="">
+    </div>
+      <div class="gallery-item product">
+        <img src="fashion/IMG_6033.JPG" alt="">
+    </div>
+    <div class="gallery-item wedding">
+        <img src="wedding/IMG_5946.JPG" alt="">
+    </div>
+    <div class="gallery-item event">
+        <img src="bw/IMG_6026.JPG" alt="">
+    </div>
+    <div class="gallery-item product">
+        <img src="fashion/IMG_6029.JPG" alt="">
+    </div>
+    <div class="gallery-item wedding">
+        <img src="wedding/IMG_5950.JPG" alt="">
+    </div>
+      <div class="gallery-item event">
+        <img src="bw/IMG_5965.JPG" alt="">
+    </div>
+</div>
+</div>
+
+<div class="team-us">
+      <h4 class="text-center">Teammates</h4>
+     <hr class="border border-2 opacity-50" style="width:100%; color: aliceblue;">
+  <div class="testimonial-section">
+    <h2 id="testimonial-title">Camera Man !</h2>
+    <p class="testimonial-content" id="testimonial-text">
+        "This is a sample testimonial. Replace this with your own amazing client feedback!"
+    </p>
+
+    <div class="arrow left" onclick="prevSlide()">&#10094;</div>
+    <div class="arrow right" onclick="nextSlide()">&#10095;</div>
+
+    <div class="thumbnails" id="thumbnails">
+        <img src="c:\Users\parthasarathi N\Downloads\Screenshot_10-8-2025_155229_www.instagram.com.jpeg" class="active" onclick="goToSlide(0)">
+        <img src="c:\Users\parthasarathi N\Downloads\Screenshot_11-8-2025_195939_www.instagram.com.jpeg" onclick="goToSlide(1)">
+        <img src="c:\Users\parthasarathi N\Downloads\Screenshot_11-8-2025_20017_www.instagram.com.jpeg" onclick="goToSlide(2)">
+    </div>
+</div>
+</div>
+
+<!-- Packagre -->
+ <div class="package-container">
+
+
+<div class="wrap">
+  <div>
+    <h1>Ronniee — Book a Package</h1>
+    <p class="lead">Choose a package and click <strong>Book Now</strong>. (Demo frontend only — no real payments)</p>
+  </div>
+
+  <section class="grid" aria-label="packages">
+    <!-- Card 1 -->
+    <article class="card" data-name="Wedding Package" data-price="₹ 30,000"
+             data-img="wedding/IMG_5938.JPG">
+      <div class="media" style="background-image:url('wedding/IMG_5938.JPG')"></div>
+      <div class="body">
+        <h3>Wedding Package</h3>
+        <div class="price">₹ 30,000</div>
+        <div class="desc">Full-day wedding coverage with photographer + videographer and premium album.</div>
+        <div class="features">
+          <div>• 1 Photographer</div>
+          <div>• 1 Videographer</div>
+          <div>• Premium Photo Album</div>
+          <div>• Drone coverage</div>
+        </div>
+        <div class="cta">
+          <button class="btn" onclick="openBooking(this)">Book Now</button>
+          <button class="ghost" onclick="viewDetails(this)">Details</button>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 2 -->
+    <article class="card" data-name="Pre-Wedding" data-price="₹ 15,000"
+             data-img="https://images.pexels.com/photos/2113566/pexels-photo-2113566.jpeg?q=80&w=1200&auto=compress&cs=tinysrgb">
+      <div class="media" style="background-image:url('https://images.pexels.com/photos/2113566/pexels-photo-2113566.jpeg?q=80&w=1200&auto=compress&cs=tinysrgb')"></div>
+      <div class="body">
+        <h3>Pre-Wedding</h3>
+        <div class="price">₹ 15,000</div>
+        <div class="desc">Romantic pre-wedding shoot at your favourite location — edited photos included.</div>
+        <div class="features">
+          <div>• 1 Photographer</div>
+          <div>• Location shoot</div>
+          <div>• 100 edited photos</div>
+        </div>
+        <div class="cta">
+          <button class="btn" onclick="openBooking(this)">Book Now</button>
+          <button class="ghost" onclick="viewDetails(this)">Details</button>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 3 -->
+    <article class="card" data-name="Birthday" data-price="₹ 10,000"
+             data-img="https://images.pexels.com/photos/210647/pexels-photo-210647.jpeg?q=80&w=1200&auto=compress&cs=tinysrgb">
+      <div class="media" style="background-image:url('https://images.pexels.com/photos/210647/pexels-photo-210647.jpeg?q=80&w=1200&auto=compress&cs=tinysrgb')"></div>
+      <div class="body">
+        <h3>Birthday</h3>
+        <div class="price">₹ 10,000</div>
+        <div class="desc">Event photography with album options and quick delivery.</div>
+        <div class="features">
+          <div>• 1 Photographer</div>
+          <div>• Unlimited photos</div>
+          <div>• Quick turnaround</div>
+        </div>
+        <div class="cta">
+          <button class="btn" onclick="openBooking(this)">Book Now</button>
+          <button class="ghost" onclick="viewDetails(this)">Details</button>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 4 -->
+    <article class="card" data-name="Corporate Event" data-price="₹ 25,000"
+             data-img="https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?q=80&w=1200&auto=compress&cs=tinysrgb">
+      <div class="media" style="background-image:url('https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?q=80&w=1200&auto=compress&cs=tinysrgb')"></div>
+      <div class="body">
+        <h3>Corporate Event</h3>
+        <div class="price">₹ 25,000</div>
+        <div class="desc">Coverage for conferences, launches — multi-camera options available.</div>
+        <div class="features">
+          <div>• 2 Photographers</div>
+          <div>• Videographer</div>
+          <div>• Drone (if allowed)</div>
+        </div>
+        <div class="cta">
+          <button class="btn" onclick="openBooking(this)">Book Now</button>
+          <button class="ghost" onclick="viewDetails(this)">Details</button>
+        </div>
+      </div>
+    </article>
+  </section>
+</div>
+
+<!-- Booking Modal -->
+<div class="overlay" id="overlay" aria-hidden="true">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="top">
+      <div class="pkg-img" id="pkgImg" style="background-image: url('')"></div>
+      <div style="flex:1;">
+        <div class="pkg-title" id="pkgName">Package Name</div>
+        <div class="pkg-price" id="pkgPrice">₹ 0</div>
+      </div>
+    </div>
+
+    <div class="fields">
+      <input id="fName" type="text" placeholder="Your full name" autocomplete="name">
+      <input id="fEmail" type="email" placeholder="Email (example@domain.com)" autocomplete="email">
+      <input id="fPhone" type="tel" placeholder="Phone (10 digits)" inputmode="numeric" autocomplete="tel">
+      <select id="fPackage" aria-label="Selected package">
+        <option value="">-- Select Package --</option>
+        <option>Wedding Package</option>
+        <option>Pre-Wedding</option>
+        <option>Birthday</option>
+        <option>Corporate Event</option>
+      </select>
+      <input id="fDate" type="date" >
+    </div>
+
+    <div class="actions">
+      <div style="display:flex; gap:8px;">
+        <button class="btn" id="confirmBtn" onclick="submitBooking()">Confirm & Pay (Demo)</button>
+        <button class="ghost" onclick="closeBooking()">Cancel</button>
+      </div>
+      <div class="note" id="note">Advance payment handled separately (demo).</div>
+    </div>
+  </div>
+</div>
+
+<!-- Toasts -->
+<div id="toastSuccess" class="toast success" style="background:var(--success)">Booking successful ✔</div>
+<div id="toastError" class="toast error" style="background:var(--danger)">Please fix the highlighted fields</div>
+
+
+ <script src="script.js"></script>
+</body>
+</html>
